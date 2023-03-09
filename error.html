@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </head>
+
+  <body>
+    <div class = myBox>
+        <h1>Error</h1>
+        <p> The username or password is incorrect, please try again.</p>
+        <form name = "signin" method="post">
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email" placeholder="example@gmail.com" required><br><br>
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="password" required><br><br>
+            <input type="submit" value="login" onclick="return login()"><br><br>
+          </form>
+        <a href="signup.html"> Click here to create a new account </a>
+    </div>
+  </body>
+</html>
+
+<script type="text/javascript" src="action.js"></script>

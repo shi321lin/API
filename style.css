@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.myBox {
+    width: 15rem;
+    height: 20rem; 
+    border-style: solid;
+    border-color: rgb(53, 0, 128);
+    border-width: 0.3rem;
+    position:relative;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    padding: 3rem;
+    
+}
+.myBoxL {
+    width: 50rem;
+    height: 80rem; 
+    border-style: solid;
+    border-color: rgb(15, 0, 128);
+    border-width: 0.3rem;
+    position:relative;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    padding: 3rem;
+    
+}
+.centerBox,h1 {
+    text-align: center;
+}

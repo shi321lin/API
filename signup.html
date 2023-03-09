@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </head>
+
+  <body>
+    <div class = myBox>
+        <h1> Sign Up </h1>
+        <p> Please create a new account.</p>
+        <form name = "signin" method="post">
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email" placeholder="example@gmail.com" required><br><br>
+            <label for="password">Password:</label>
+            <input id="password" type="password" name="password" required><br><br>
+            <label for="firstName">First Name:</label>
+            <input id="firstName" type="firstName" name="firstName" required><br><br>
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" type="lastName" name="lastName" required><br><br>
+            <input type="submit" value="signup" onclick="return signup()">
+          </form>
+    </div>
+  </body>
+</html>
+
+<script type="text/javascript" src="action.js"></script>
